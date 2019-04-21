@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+#shoppingList {
+    background-color: #333;
+    max-width: 30rem;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px 10px 1px 1px;
+}
+
+h2, h1 {
+    font-family: 'Oswald', 'Futura', sans-serif;
+    text-align: center;
+    color: #DC143C;
+    font-size: 4em;
+    letter-spacing: .3em;
+    font-weight: normal;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+#list {
+  background-color: #333;
+}
+
+p {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 52px;
+
+}
+
+input {
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #008B8B;
+    border: white solid 5px;
+    color: white;
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 45px;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: white;
+    border: #008B8B solid 5px;
+    color: #008B8B;
+}
+
+li {
+    color: white;
+    font-size: 1.5em;
+    border-bottom: 1px solid #008B8B;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    margin-left: 50px;
+    list-style-type: disc;
+    width: 80%;
+    margin: auto;
+
+}
+
+.error {
+    text-align: center;
+    display: none;
+    color: white;
+    margin: auto;
+    border: #DC143C solid 5px;
+    padding: 12px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    width: 80%;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 10px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+}
+
+a {
+  color: #008B8B;
+}
